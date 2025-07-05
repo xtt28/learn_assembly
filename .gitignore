@@ -1,0 +1,33 @@
+# Object files
+*.o
+
+# Executable binaries (Linux default output)
+a.out
+*.out
+*.bin
+*.exe
+
+# Debug symbols (optional)
+*.dSYM/
+*.elf
+
+# Build artifacts (custom names)
+build/
+dist/
+
+# Core dumps
+core
+core.*
+
+# Editor & OS-specific files
+*.swp        # Vim
+*~           # Backup files
+.DS_Store    # macOS
+Thumbs.db    # Windows
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# VS Code settings (optional)
+.vscode/
